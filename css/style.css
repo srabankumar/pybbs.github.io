@@ -1,0 +1,42 @@
+body {
+        background: #000;
+        color: #fff;
+        font-size: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      .central-text-div{
+        margin-top: 200px;
+        margin-bottom: 200px;
+      }
+      @media only screen and (max-height: 600px) {
+        .central-text-div{
+          margin-top: 150px;
+          margin-bottom: 150px;
+        }  
+      }
+      @media only screen and (max-height: 400px) {
+        .central-text-div{
+          margin-top: 100px;
+          margin-bottom: 100px;
+        }  
+      }
+
+      #home-links-div {
+        padding-top: 30px;
+      }
+
+      .home-link {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #FFD141;
+        padding: 0 20;
+        text-decoration: underline;
+      }
+      @media only screen and (max-width: 400px) {
+        body { font-size:60%;}
+        .home-link{
+          padding: 0 10px;
+        }
+      }
