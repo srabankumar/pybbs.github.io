@@ -55,6 +55,9 @@ body {
   #mailing-list-button{
     margin: 20px;
   }
+  #hello-button{
+    margin: 20px;
+  }
 
   .home-link {
     font-size: 1.6em;
