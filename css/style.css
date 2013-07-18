@@ -52,10 +52,7 @@ body {
     padding: 20px 20px;
   }
 
-  #mailing-list-button{
-    margin: 20px;
-  }
-  #hello-button{
+  .btn{
     margin: 20px;
   }
 
